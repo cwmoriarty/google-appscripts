@@ -1,5 +1,5 @@
 function fetch() {
-  var url = "";
+  var url = atob("aHR0cHM6Ly9wb3dlcm91dGFnZS51cy9hcmVhL3JlZ2lvbi9uZXclMjBlbmdsYW5k");
 
   //fetch URL 
   var content = UrlFetchApp.fetch(url).getContentText();
